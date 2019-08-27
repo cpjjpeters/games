@@ -1,6 +1,7 @@
 package be.ipeters.games.main;
 
 import be.ipeters.games.utils.InputRequest;
+import be.ipeters.games.utils.MenuController;
 
 public class GUI {
     MenuView mv = new MenuView();
@@ -164,4 +165,4 @@ public class GUI {
         System.out.println("Thanks for using this item.\n");
     }
 
-}}
+}

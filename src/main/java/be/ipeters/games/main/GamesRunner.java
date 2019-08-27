@@ -5,7 +5,7 @@ import be.ipeters.games.utils.MenuController;
 public class GamesRunner {
     public static void main(String[] args) {
         MenuController mc = new MenuController();
-        Gui gui = new Gui();
+        GUI gui = new GUI();
         gui.start();
     }
 }

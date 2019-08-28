@@ -7,5 +7,7 @@ public class GamesRunner {
         MenuController mc = new MenuController();
         GUI gui = new GUI();
         gui.start();
+        mc.showHash(mc.fillHashMain());
+        gui.requestSelection();
     }
 }

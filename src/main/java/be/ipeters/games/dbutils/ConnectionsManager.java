@@ -16,7 +16,7 @@ public class ConnectionsManager {
             try {
 
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                connection = DriverManager.getConnection(URL, "root", "");
+                connection = DriverManager.getConnection(URL, "cpbelcar", "");
             } catch (SQLException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
